@@ -1,0 +1,19 @@
+// Demo page styles
+// -------------------------
+@import 'demo';
+
+// Base counter styles and builder
+// -------------------------
+@import 'css-flip-counter';
+
+// Lets make some counters!
+// -------------------------
+
+// Simple default
+@include build-counter(default);
+// Light
+@include build-counter(light, 60px, 90px, 90px, 10px, #E8F1FF, white, 52px, 300px);
+// Small
+@include build-counter(small, 30px, 40px, 34px, 5px, black, white, 25px, 300px);
+// Huge mofo
+@include build-counter(huge, 140px, 200px, 190px, 20px, black, white, 70px, 800px);
